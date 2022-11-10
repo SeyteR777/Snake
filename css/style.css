@@ -6,12 +6,12 @@
     display: grid;
     margin: 30px auto;
     grid-template-columns: repeat(3, 1fr);
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .button {
-    height: 50px;
+    height: 75px;
     background: #000;
     opacity: 0.1;
 }
@@ -30,4 +30,10 @@
 
 .down {
     grid-column: 2;
+}
+
+@media (min-width: 992px) {
+    .btn_group {
+        display: none;
+    }
 }

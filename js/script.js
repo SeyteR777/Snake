@@ -68,7 +68,7 @@ function drawGame() {
     if (snakeX < box || snakeX > box * 17 || snakeY < 3 * box || snakeY > box * 17)
     {
         clearInterval(game);
-        let restart = confirm('Вы програлиб хотите начать заново');
+        let restart = confirm('Вы програли, хотите начать заново?');
         if (restart === true) {
             location.reload();
         }
