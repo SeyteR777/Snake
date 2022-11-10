@@ -1,0 +1,33 @@
+#game {
+    max-width: 100%;
+}
+
+.btn_group {
+    display: grid;
+    margin: 30px auto;
+    grid-template-columns: repeat(3, 1fr);
+    width: 150px;
+    height: 150px;
+}
+
+.button {
+    height: 50px;
+    background: #000;
+    opacity: 0.1;
+}
+
+.up {
+    grid-column: 2;
+}
+
+.left {
+    grid-column: 1;
+}
+
+.right {
+    grid-column: 3;
+}
+
+.down {
+    grid-column: 2;
+}
